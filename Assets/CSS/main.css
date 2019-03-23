@@ -1,0 +1,251 @@
+
+body{
+	padding: 0;
+	margin: 0px;
+	font-size: 1em;
+	font-family: sans-serif;
+	width: 100%;
+	color: #000;
+
+}
+
+.nav_bar{
+	background-color: #333;
+	margin-left:180px;
+}
+
+.nav_bar_logo img{
+	display: none;
+	margin-top: 10px;
+	width: 100px;
+	float: left;
+}
+
+@media screen and (max-width: 1000px){
+	.nav_bar {
+		margin-left: 0px;
+	}
+
+	.nav_bar_logo img{
+		display: inline-block;
+	}
+}
+
+.nav_bar ul{
+	margin:0;
+	padding: 20px;
+}
+
+.nav_bar li{
+	padding: 10px;
+	color: #fff;
+	list-style: none;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.nav_bar li:hover{
+	color: yellow;
+	cursor: pointer;
+}
+
+
+.search_box{
+	display: inline-block;
+	font-size: 16px;
+		color: #fff;
+	margin-left: 10px;
+	margin-right: 20px
+}
+
+input{
+	width: 100%;
+	padding: 5px;
+	font-size: 20px;
+	border-radius: 20px;
+}
+
+.log_sig_btn{
+	float: right;
+}
+
+
+
+/* Style the side navigation */
+
+@media screen and (max-width: 1000px){
+	.sidenav {
+		display: none;
+	}
+}
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  overflow-x: hidden;
+}
+
+.sidenav_logo img{
+width: 100px;
+cursor: pointer;
+	padding-top: 10px;
+	margin-left: 45px;
+	transition: 0.5s;
+		transition-delay: 2s;
+}
+
+.sidenav_logo img:hover{
+	width: 150px;
+	margin-top: -15px;
+	margin-left: 20px;
+	transition: 0.5s;
+}
+
+.sidenav h2{
+	color: #fff;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+
+/* Side navigation links */
+.sidenav a {
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+
+/* Style the content */
+.content {
+	background-color: #00efff;
+	height: auto;
+  margin-left: 200px;
+  padding-left: 20px;
+}
+
+.content a{
+	color: #000;
+	text-decoration: none;
+}
+
+.content h2{
+	text-align: center;
+	background-color: #111863;
+	color: #fff;
+	padding: 10px;
+	border-radius: 10px;
+	width: 95%;
+}
+
+@media screen and (max-width: 1000px){
+	.content {
+		margin-left: 0px;
+	}
+}
+
+
+.banner{
+	width: 98%;
+}
+
+.banner img{
+	width: 100%;
+	box-shadow: 4px 5px 40px 2px #fff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.main_cont{
+	width: 95%;
+	margin-top: 50px;
+	padding-bottom: 100px;
+	margin-left: 2%;
+}
+
+/* Container for flexboxes */
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+	background-color: #fff;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 10px 5px 50px 0px #000;
+  height: auto; /* Should be removed. Only for demonstration */
+}
+
+.column img{
+	width: 60%;
+	margin-left: 20%;
+}
+
+.item_info{
+	background-color:#efefef;
+	padding: 5px;
+	margin-top: 20px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+
+.item_info h3{
+	color: red;
+}
+
+
+
+
+
+
+
+/* Style the footer */
+.footer {
+	position: relative;
+	z-index: 1;
+	background-color: #333;
+	width: 100%;
+	text-align: center;
+	height: 100px;
+}
+
+.footer a{
+	margin-top: 20px;
+	display: inline-block;
+	text-decoration: none;
+	list-style: none;
+	color: #fff;
+	padding: 10px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 800px) {
+  .row {
+   	flex-direction: column;
+    flex-direction: column;
+  }
+}
