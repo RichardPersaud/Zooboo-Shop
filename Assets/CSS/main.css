@@ -147,7 +147,7 @@ cursor: pointer;
 
 .content h2{
 	text-align: center;
-	background-color: #111863;
+	background-color: #00acb3;
 	color: #fff;
 	padding: 10px;
 	border-radius: 10px;
@@ -160,17 +160,6 @@ cursor: pointer;
 	}
 }
 
-
-.banner{
-	width: 98%;
-}
-
-.banner img{
-	width: 100%;
-	box-shadow: 4px 5px 40px 2px #fff;
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
 
 .main_cont{
 	width: 95%;
@@ -190,7 +179,7 @@ cursor: pointer;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
   margin-right: 10px;
   padding: 10px;
   border-radius: 10px;
@@ -201,6 +190,13 @@ cursor: pointer;
 .column img{
 	width: 60%;
 	margin-left: 20%;
+}
+
+.card_logo img{
+	width: 30%;
+	float: right;
+	margin-top: -15px;
+	margin-right: -20px;
 }
 
 .item_info{
