@@ -66,6 +66,14 @@ input{
 	border-radius: 20px;
 }
 
+.search_btn{
+margin-top: -28px;
+position: relative;
+ float: right;
+}
+
+
+
 .log_sig_btn{
 	float: right;
 }
@@ -94,7 +102,7 @@ input{
 .sidenav_logo img{
 width: 100px;
 cursor: pointer;
-	padding-top: 10px;
+	margin-top: 10px;
 	margin-left: 45px;
 	transition: 0.5s;
 		transition-delay: 2s;
@@ -212,23 +220,26 @@ cursor: pointer;
 	color: red;
 }
 
-
-
-
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 800px) {
+  .row {
+   	flex-direction: column;
+    flex-direction: column;
+  }
+}
 
 
 
 /* Style the footer */
-.footer {
+.footer_top {
 	position: relative;
-	z-index: 1;
 	background-color: #333;
 	width: 100%;
-	text-align: center;
-	height: 100px;
+	text-align: right;
+	height: 200px;
 }
 
-.footer a{
+.footer_top a{
 	margin-top: 20px;
 	display: inline-block;
 	text-decoration: none;
@@ -238,10 +249,24 @@ cursor: pointer;
   text-align: center;
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media (max-width: 800px) {
-  .row {
-   	flex-direction: column;
-    flex-direction: column;
-  }
+
+
+/* Style the footer */
+.footer_bot {
+	position: relative;
+	background-color: #222;
+	width: 100%;
+	text-align: center;
+	height: 300px;
 }
+
+.footer_bot a{
+	margin-top: 20px;
+	display: inline-block;
+	text-decoration: none;
+	list-style: none;
+	color: #fff;
+	padding: 10px;
+  text-align: center;
+}
+
