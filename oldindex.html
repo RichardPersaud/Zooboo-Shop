@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Zooboo Shop</title>
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" type="text/css" href="Assets/CSS/main.css">
+	
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+</head>
+<body>
+	<div class="nav_bar">
+
+<div class="nav_bar_logo">
+	<img src="Assets/IMG/Z_logo.png">
+</div>
+
+		<ul>
+
+			<div class="search_box">
+			<i class="fa fa-search"></i> Search <input type="text" name="Search" placeholder="Search">
+			
+			<div class="search_btn">
+				<button type="submit"><i class="fa fa-search"></i></button>
+			</div>
+
+			</div>
+
+			<li>Shopping Cart <i class="fa fa-cart-plus" style="font-size:20px"></i>
+			</li>
+
+			<div class="log_sig_btn">
+				<li>Login</li>
+				<li>Sign-up</li>
+			</div>
+
+		</ul>
+	</div>
+
+
+	<div class="sidenav">
+		<div class="sidenav_logo">
+			<img src="Assets/IMG/Z_logo.png">
+		</div>
+			<h2>Clothing <i class="fa fa-tshirt" style="font-size: 18px"></i></h2>
+		  <a href="#">Mens</a>
+		  <a href="#">Womens</a>
+		  <a href="#">Kids</a>
+
+		  <h2>Electronics <i class="fa fa-phone" style="font-size: 18px"></i></h2>
+		  <a href="#">Cell-Phones</a>
+		  <a href="#">Computers</a>
+		  <a href="#">Accessories</a>
+
+	</div>
+
+		<div id="mySidenav" class="side_nav">
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  	<div class="nav_bar_logo">
+		<img src="Assets/IMG/Z_logo.png" style="margin-left: 50px;">
+	</div>
+	<br>
+	<br>
+
+			  <h3>Clothing</h3>
+		 		  <a href="#">Mens</a>
+				  <a href="#">Womens</a>
+				  <a href="#">Kids</a>
+			  <h3>Electronics</h3>
+				  <a href="#">Cell-Phones</a>
+				  <a href="#">Computers</a>
+				  <a href="#">Accessories</a>
+
+		<div class="log_sig_btn">
+				 <a href="#">Login</a>
+				  <a href="#">Sign Up</a>
+		</div>
+
+		</div>
+
+			<div id="main">
+			  <span style="font-size:24px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+			</div>
+
+		<script>
+
+		function openNav() {
+		    document.getElementById("mySidenav").style.width = "200px";
+		    document.getElementById("main").style.marginLeft = "200px";
+		}
+
+		function closeNav() {
+		    document.getElementById("mySidenav").style.width = "0";
+		    document.getElementById("main").style.marginLeft= "0";
+		}
+		</script>
+
+
+
+
+
+
+<div class="content">
+
+<!--SlideShow-->
+	<div class="slideshow-container">
+
+	<div class="mySlides fade">
+	  <img src="Assets/IMG/banner-shop.gif" style="width:100%">
+	</div>
+
+	<div class="mySlides fade">
+	  <img src="Assets/IMG/banner_shop_2.jpg" style="width:100%">
+	</div>
+
+	<div class="mySlides fade">
+	  <img src="Assets/IMG/banner_shop_3.jpg" style="width:100%">
+	</div>
+
+	</div>
+	<br>
+
+	<div style="text-align:center">
+	  <span class="dot"></span> 
+	  <span class="dot"></span> 
+	  <span class="dot"></span> 
+	</div>
+
+<link rel="stylesheet" type="text/css" href="Assets/CSS/slide.css">
+<script src="Assets/JS/slide.js"></script>
+<!--SlideShow-->
+
+
+
+
+  <h2>T-Shirts</h2>
+  <a href="">Mens</a> / <a href="">Casual</a> / <a href="">T-Shirts</a>
+
+
+		  <div class="main_cont">
+		  	
+				<div class="row">
+				  <div class="column">
+				  	<div class="card_logo"><img  src="Assets/IMG/Z_logo.png">
+				  	</div>
+				  	
+				  	<img src="Assets/IMG/T-shirts/t-shirt_1.png">
+				  	<div class="item_info">
+				  		<h4>Orange T-Shirt</h4>
+				  		<h3>$9.99 - $19.99</h3>
+				  		<h6>Free Shipping</h6>
+				  	</div>
+				  </div>
+
+				  <div class="column">
+
+				  	<div class="card_logo"><img  src="Assets/IMG/Z_logo.png">
+				  	</div>
+
+				  	<img src="Assets/IMG/T-shirts/t-shirt_2.png">
+				  	<div class="item_info">
+				  		<h4>Pink T-Shirt</h4>
+				  		<h3>$9.99 - $19.99</h3>
+				  	</div>
+				  </div>
+
+				  <div class="column">
+
+				  	<div class="card_logo"><img  src="Assets/IMG/Z_logo.png">
+				  	</div>
+
+				  	<img src="Assets/IMG/T-shirts/t-shirt_3.png">
+				  	<div class="item_info">
+				  		<h4>Orange T-Shirt</h4>
+				  		<h3>$9.99 - $19.99</h3>
+				  	</div>
+				  </div>
+				</div>
+
+				<div class="row">
+				   <div class="column">
+
+				   	<div class="card_logo"><img  src="Assets/IMG/Z_logo.png">
+				  	</div>
+
+				  	<img src="Assets/IMG/T-shirts/t-shirt_4.png">
+				  	<div class="item_info">
+				  		<h4>Orange T-Shirt</h4>
+				  		<h3>$9.99 - $19.99</h3>
+				  	</div>
+				  </div>
+				   <div class="column">
+
+				   	<div class="card_logo"><img  src="Assets/IMG/Z_logo.png">
+				  	</div>
+
+				  	<img src="Assets/IMG/T-shirts/t-shirt_5.png">
+				  	<div class="item_info">
+				  		<h4>Orange T-Shirt</h4>
+				  		<h3>$9.99 - $19.99</h3>
+				  	</div>
+				  </div>
+				   <div class="column">
+
+				   	<div class="card_logo"><img  src="Assets/IMG/Z_logo.png">
+				  	</div>
+				   	
+				  	<img src="Assets/IMG/T-shirts/t-shirt_6.png">
+				  	<div class="item_info">
+				  		<h4>Orange T-Shirt</h4>
+				  		<h3>$9.99 - $19.99</h3>
+				  	</div>
+				  </div>
+				</div>
+
+		  </div>
+
+</div>
+
+
+	<div class="footer_top">
+	  <a href="#"><li>About</li></a>
+		<a href="#"><li>Contact</li></a>
+		<a href="#"><li>Advertisment</li></a>
+		<a href="#"><li>Support</li></a>		
+	</div>
+	<div class="footer_bot">
+		 	 <a href="#"><li>About</li></a>
+			<a href="#"><li>Contact</li></a>
+			<a href="#"><li>Advertisment</li></a>
+			<a href="#"><li>Support</li></a>
+			</div>
+
+</body>
+</html>
